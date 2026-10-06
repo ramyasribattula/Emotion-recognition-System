@@ -106,8 +106,6 @@ Open `frontend/index.html` in your browser.
 **Ramya Sri Battula**
 GitHub: https://github.com/ramyasribattula
 
-Based on the original project by Loya Jyoti Swaroop ([github.com/swarooploya18](https://github.com/swarooploya18)).
-
 ---
 
 ⭐ If you like this project, give it a star!
