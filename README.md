@@ -1,20 +1,20 @@
-\# 🎭 Emotion Recognition System
+# 🎭 Emotion Recognition System
 
 ## 📌 Overview
 
-This project is a **Multi-Modal Emotion Recognition System** that detects human emotions using machine learning and deep learning techniques. It analyzes user inputs (such as images, video, or text) and predicts emotional states like **happy, sad, angry, neutral**, etc.
+This project is an **Emotion Recognition System** that identifies human emotions from facial expressions using machine learning and deep learning. It analyzes images or live camera input and predicts emotions such as **happy, sad, angry, neutral**, and more, then shows the result on a simple web interface.
 
-\---
+---
 
 ## 🚀 Features
 
 * 🎯 Real-time emotion detection
-* 🧠 Deep Learning-based prediction
-* 📷 Image/Video input support
-* 🌐 Frontend + Backend architecture
+* 🧠 Deep learning-based prediction
+* 📷 Image/video input support
+* 🌐 Frontend + backend architecture
 * ⚡ Fast and efficient processing
 
-\---
+---
 
 ## 🛠️ Tech Stack
 
@@ -23,38 +23,40 @@ This project is a **Multi-Modal Emotion Recognition System** that detects human 
 * **Libraries:** OpenCV, TensorFlow / PyTorch, NumPy
 * **Tools:** VS Code, Git
 
-\---
+---
 
 ## 📂 Project Structure
 
-emotion-system/
+```
+Emotion-recognition-System/
 │── backend/
 │── frontend/
 │── package-lock.json
 │── requirements.txt
 │── README.md
+```
 
-\---
+---
 
-## ⚙️ Installation \& Setup
+## ⚙️ Installation & Setup
 
 ### 1️⃣ Clone the repository
 
 ```bash
-git clone https://github.com/Akashhh-p/emotion-system.git
-cd emotion-system
+git clone https://github.com/ramyasribattula/Emotion-recognition-System.git
+cd Emotion-recognition-System
 ```
 
-### 2️⃣ Create virtual environment
+### 2️⃣ Create a virtual environment
 
 ```bash
 python -m venv venv
 ```
 
-### 3️⃣ Activate environment
+### 3️⃣ Activate the environment
 
 ```bash
-venv\\\\\\\\Scripts\\\\\\\\activate   # Windows
+venv\Scripts\activate   # Windows
 ```
 
 ### 4️⃣ Install dependencies
@@ -63,54 +65,49 @@ venv\\\\\\\\Scripts\\\\\\\\activate   # Windows
 pip install -r requirements.txt
 ```
 
-### 5️⃣ Run backend
+### 5️⃣ Run the backend
 
 ```bash
 cd backend
 python app.py
 ```
 
-### 6️⃣ Run frontend
+### 6️⃣ Run the frontend
 
-Open `frontend/index.html` in browser
+Open `frontend/index.html` in your browser.
 
-\---
+---
 
 ## 📊 Output
 
-* Detects emotions from input
-* Displays predicted emotion on UI
+* Detects emotions from the input
+* Displays the predicted emotion on the UI
 
-\---
+---
 
 ## 📸 Screenshots
 
-(Add your screenshots here)
+<img width="1918" height="911" alt="Screenshot 1" src="https://github.com/user-attachments/assets/ad32c18f-b7bd-403e-bf45-d25f827c87da" />
+<img width="1914" height="907" alt="Screenshot 2" src="https://github.com/user-attachments/assets/7376b85e-ef13-4a72-8d93-1c1322324720" />
+<img width="1919" height="908" alt="Screenshot 3" src="https://github.com/user-attachments/assets/5e56ae29-6dbb-4c72-8770-1f60995c8618" />
 
-\---
+---
 
 ## 🔮 Future Improvements
 
 * Add voice emotion recognition
 * Improve accuracy with advanced models
-* Deploy as web application
+* Deploy as a web application
 
-\---
+---
 
+## 👩‍💻 Author
 
+**Ramya Sri Battula**
+GitHub: https://github.com/ramyasribattula
 
-<img width="1918" height="911" alt="Screenshot 2026-03-25 102213" src="https://github.com/user-attachments/assets/ad32c18f-b7bd-403e-bf45-d25f827c87da" />
-<img width="1914" height="907" alt="Screenshot 2026-03-25 102152" src="https://github.com/user-attachments/assets/7376b85e-ef13-4a72-8d93-1c1322324720" />
-<img width="1919" height="908" alt="Screenshot 2026-03-25 102256" src="https://github.com/user-attachments/assets/5e56ae29-6dbb-4c72-8770-1f60995c8618" />
+Based on the original project by Loya Jyoti Swaroop ([github.com/swarooploya18](https://github.com/swarooploya18)).
 
-
-
-## 👨‍💻 Author
-
-**Loya Jyoti Swaroop**
-GitHub: https://github.com/swarooploya18
-
-\---
+---
 
 ⭐ If you like this project, give it a star!
-
